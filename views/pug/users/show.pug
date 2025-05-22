@@ -1,0 +1,16 @@
+extends ../layouts/base
+
+block content
+  .user-detail
+    h2 User Details
+    .user-info
+      p 
+        strong Name: 
+        | #{user.name}
+      p 
+        strong Email: 
+        | #{user.email}
+      p 
+        strong Age: 
+        | #{user.age}
+    a.back-link(href="/users") Back to Users

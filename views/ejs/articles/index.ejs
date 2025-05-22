@@ -1,0 +1,12 @@
+<%- include('../partials/header') %>
+<h2>Article List</h2>
+<div class="article-list">
+  <% articles.forEach(article => { %>
+  <div class="article-item">
+    <h3><a href="/articles/<%= article.id %>"><%= article.title %></a></h3>
+    <p class="author">Author: <%= article.author %></p>
+    <p class="excerpt"><%= article.content.substring(0, 100) %>...</p>
+  </div>
+  <% }); %>
+</div>
+<%- include('../partials/footer') %>

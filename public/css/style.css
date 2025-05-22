@@ -1,0 +1,96 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #35424a;
+    color: #ffffff;
+  }
+  
+  /* Стилі для користувачів (PUG) */
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background: #ffffff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .user-detail {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .user-info {
+    margin-bottom: 1.5rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #35424a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Стилі для статей (EJS) */
+  .article-list {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .article-item {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .article-detail {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .article-item h3 {
+    margin-top: 0;
+  }
+  
+  .author {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .excerpt {
+    color: #444;
+  }
